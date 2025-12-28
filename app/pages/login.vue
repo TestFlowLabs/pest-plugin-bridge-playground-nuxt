@@ -40,6 +40,7 @@ watchEffect(() => {
         <label for="email">Email</label>
         <input
           id="email"
+          name="email"
           v-model="email"
           type="email"
           data-testid="email-input"
@@ -51,6 +52,7 @@ watchEffect(() => {
         <label for="password">Password</label>
         <input
           id="password"
+          name="password"
           v-model="password"
           type="password"
           data-testid="password-input"

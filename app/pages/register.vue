@@ -42,6 +42,7 @@ watchEffect(() => {
         <label for="name">Name</label>
         <input
           id="name"
+          name="name"
           v-model="name"
           type="text"
           data-testid="name-input"
@@ -53,6 +54,7 @@ watchEffect(() => {
         <label for="email">Email</label>
         <input
           id="email"
+          name="email"
           v-model="email"
           type="email"
           data-testid="email-input"
@@ -64,6 +66,7 @@ watchEffect(() => {
         <label for="password">Password</label>
         <input
           id="password"
+          name="password"
           v-model="password"
           type="password"
           data-testid="password-input"
@@ -75,6 +78,7 @@ watchEffect(() => {
         <label for="password_confirmation">Confirm Password</label>
         <input
           id="password_confirmation"
+          name="password_confirmation"
           v-model="passwordConfirmation"
           type="password"
           data-testid="password-confirmation-input"
